@@ -1,4 +1,4 @@
-# **App Name**: Tauro Press
+# **App Name**: Albero y Oro
 
 ## Core Features:
 
