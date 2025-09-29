@@ -31,6 +31,7 @@ export default function RootLayout({
         />
       </head>
       <body className={cn('font-body antialiased min-h-screen flex flex-col bg-background')}>
+        <div className="art-background"></div>
         <Header />
         <main className="flex-grow">{children}</main>
         <Footer />
