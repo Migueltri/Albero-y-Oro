@@ -5,16 +5,16 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
-import { Menu, Search, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { BullIcon } from '../icons/BullIcon';
-import { Separator } from '../ui/separator';
 
 const navLinks = [
   { href: '/actualidad', label: 'Actualidad' },
   { href: '/entrevistas-y-opinion', label: 'Opinión' },
+  { href: '/galeria', label: 'Galería' },
   { href: '/agenda', label: 'Agenda' },
-  { href: '/multimedia', label: 'Multimedia' },
+  { href: '/quienes-somos', label: 'Quiénes Somos' },
   { href: '/contacto', label: 'Contacto' },
 ];
 
@@ -42,7 +42,7 @@ export function Header() {
         <Logo />
 
         <div className="flex flex-1 items-center justify-end">
-            <nav className="hidden md:flex items-center space-x-8 text-sm font-medium">
+            <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">
             {navLinks.map(link => (
                 <Link
                 key={link.href}
@@ -57,13 +57,7 @@ export function Header() {
             ))}
             </nav>
             
-            <Separator orientation="vertical" className="h-6 mx-4 hidden md:block" />
-
-            <div className="flex items-center space-x-2">
-                <Button variant="ghost" size="icon">
-                    <Search className="h-5 w-5" />
-                    <span className="sr-only">Buscar</span>
-                </Button>
+            <div className="flex items-center space-x-2 md:hidden">
                 <Sheet open={isMenuOpen} onOpenChange={setIsMenuOpen}>
                 <SheetTrigger asChild>
                     <Button variant="ghost" size="icon" className="md:hidden">

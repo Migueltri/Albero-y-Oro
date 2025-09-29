@@ -3,8 +3,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
-import { BullIcon } from "@/components/icons/BullIcon";
-import { Mail, Pin, Phone } from "lucide-react";
+import { Mail, Pin } from "lucide-react";
 
 export default function ContactoPage() {
   return (
@@ -16,7 +15,7 @@ export default function ContactoPage() {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start max-w-6xl mx-auto">
         <Card>
           <CardHeader>
             <CardTitle>Enviar un mensaje</CardTitle>
@@ -40,25 +39,16 @@ export default function ContactoPage() {
               </div>
               <div className="space-y-2">
                 <Label htmlFor="message">Mensaje</Label>
-                <Textarea id="message" placeholder="Escribe tu mensaje aquí..." />
+                <Textarea id="message" placeholder="Escribe tu mensaje aquí..." rows={5} />
               </div>
               <Button type="submit" className="w-full">Enviar Mensaje</Button>
             </form>
           </CardContent>
         </Card>
 
-        <div className="space-y-8">
-            <div className="flex items-start gap-4">
-                <div className="bg-primary/10 text-primary p-3 rounded-full">
-                    <BullIcon className="h-6 w-6"/>
-                </div>
-                <div>
-                    <h3 className="text-lg font-semibold font-headline">Sobre Nosotros</h3>
-                    <p className="text-muted-foreground">TauroPress es un medio independiente y apasionado, comprometido con la difusión y defensa de la cultura taurina con rigor y profesionalidad.</p>
-                </div>
-            </div>
+        <div className="space-y-8 pt-8">
              <div className="flex items-start gap-4">
-                <div className="bg-primary/10 text-primary p-3 rounded-full">
+                <div className="bg-primary/10 text-primary p-3 rounded-full flex-shrink-0">
                     <Pin className="h-6 w-6"/>
                 </div>
                 <div>
@@ -67,12 +57,13 @@ export default function ContactoPage() {
                 </div>
             </div>
              <div className="flex items-start gap-4">
-                <div className="bg-primary/10 text-primary p-3 rounded-full">
+                <div className="bg-primary/10 text-primary p-3 rounded-full flex-shrink-0">
                     <Mail className="h-6 w-6"/>
                 </div>
                 <div>
                     <h3 className="text-lg font-semibold font-headline">Email</h3>
-                    <p className="text-muted-foreground">redaccion@tauropress.com</p>
+                    <p className="text-muted-foreground">General: <a href="mailto:redaccion@tauropress.com" className="text-primary hover:underline">redaccion@tauropress.com</a></p>
+                    <p className="text-muted-foreground">Publicidad: <a href="mailto:publicidad@tauropress.com" className="text-primary hover:underline">publicidad@tauropress.com</a></p>
                 </div>
             </div>
         </div>

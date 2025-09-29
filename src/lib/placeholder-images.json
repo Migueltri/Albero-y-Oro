@@ -79,6 +79,30 @@
       "imageHint": "arena sunset"
     },
     {
+      "id": "gallery-5",
+      "description": "Gallery image 5",
+      "imageUrl": "https://images.unsplash.com/photo-1620025539249-1d57c5a31990?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxidWxsJTIwcnVubmluZ3xlbnwwfHx8fDE3NTkxMjgxMDF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "bull running"
+    },
+    {
+      "id": "gallery-6",
+      "description": "Gallery image 6",
+      "imageUrl": "https://images.unsplash.com/photo-1622964011519-050e590300b6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMXx8YnVsbCUyMHBvcnRyYWl0fGVufDB8fHx8MTc1OTEyODA5OXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "bull portrait"
+    },
+    {
+      "id": "gallery-7",
+      "description": "Gallery image 7",
+      "imageUrl": "https://images.unsplash.com/photo-1549488337-18b045e9541a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bWF0YWRvciUyMGNvc3R1bWV8ZW58MHx8fHwxNzU5MTI4MTAwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "matador costume"
+    },
+    {
+      "id": "gallery-8",
+      "description": "Gallery image 8",
+      "imageUrl": "https://images.unsplash.com/photo-1632734139436-7e53f0249b62?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxidWxsZmlnaHRpbmclMjBwYXNvZG9ibGV8ZW58MHx8fHwxNzU5MTI4MTAyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "bullfighting pasodoble"
+    },
+    {
       "id": "interview-1",
       "description": "Portrait of a matador for an interview",
       "imageUrl": "https://images.unsplash.com/photo-1736184722261-8e9a736dfeeb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxtYXRhZG9yJTIwcG9ydHJhaXR8ZW58MHx8fHwxNzU5MTI3OTc5fDA&ixlib=rb-4.1.0&q=80&w=1080",
@@ -89,6 +113,24 @@
       "description": "Abstract image for opinion piece",
       "imageUrl": "https://images.unsplash.com/photo-1654298899591-d330a20c37a8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxidWxsZmlnaHRpbmclMjBhcnR8ZW58MHx8fHwxNzU5MTI3OTc5fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "bullfighting art"
+    },
+    {
+      "id": "quienes-somos-1",
+      "description": "Portrait of a journalist",
+      "imageUrl": "https://images.unsplash.com/photo-1556157382-97eda2d62296?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxqb3VybmFsaXN0JTIwcG9ydHJhaXR8ZW58MHx8fHwxNzU5MTM1NzMxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "journalist portrait"
+    },
+    {
+      "id": "quienes-somos-2",
+      "description": "Portrait of a photographer",
+      "imageUrl": "https://images.unsplash.com/photo-1554080353-a576cf803bda?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxwaG90b2dyYXBoZXIlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NTkxMzU3MzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "photographer portrait"
+    },
+    {
+      "id": "quienes-somos-3",
+      "description": "Portrait of an editor",
+      "imageUrl": "https://images.unsplash.com/photo-1589920042449-3a3c9a0186be?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxlZGl0b3IlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NTkxMzU3MzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "editor portrait"
     }
   ]
 }

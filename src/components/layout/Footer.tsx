@@ -8,8 +8,9 @@ import { Twitter, Facebook, Instagram } from 'lucide-react';
 const navLinks = [
   { href: '/actualidad', label: 'Actualidad' },
   { href: '/entrevistas-y-opinion', label: 'Opinión' },
+  { href: '/galeria', label: 'Galería' },
   { href: '/agenda', label: 'Agenda' },
-  { href: '/multimedia', label: 'Multimedia' },
+  { href: '/quienes-somos', label: 'Quiénes Somos' },
   { href: '/contacto', label: 'Contacto' },
 ];
 
@@ -49,16 +50,7 @@ export function Footer() {
           <div className="lg:col-span-1"></div>
 
           <div className="col-span-1 lg:col-span-2">
-            <h3 className="font-headline font-semibold mb-4">Actualidad</h3>
-            <ul className="space-y-2 text-sm">
-                <li><Link href="#" className="text-muted-foreground hover:text-primary transition-colors">Noticias</Link></li>
-                <li><Link href="#" className="text-muted-foreground hover:text-primary transition-colors">Corridas</Link></li>
-                <li><Link href="#" className="text-muted-foreground hover:text-primary transition-colors">Ferias</Link></li>
-            </ul>
-          </div>
-          
-          <div className="col-span-1 lg:col-span-2">
-            <h3 className="font-headline font-semibold mb-4">Contenido</h3>
+            <h3 className="font-headline font-semibold mb-4">Navegación</h3>
              <ul className="space-y-2 text-sm">
               {navLinks.map(link => (
                 <li key={link.href}>
@@ -67,6 +59,15 @@ export function Footer() {
                   </Link>
                 </li>
               ))}
+            </ul>
+          </div>
+          
+          <div className="col-span-1 lg:col-span-2">
+            <h3 className="font-headline font-semibold mb-4">Legal</h3>
+             <ul className="space-y-2 text-sm">
+                <li><Link href="#" className="text-muted-foreground hover:text-primary transition-colors">Términos y Condiciones</Link></li>
+                <li><Link href="#" className="text-muted-foreground hover:text-primary transition-colors">Política de Privacidad</Link></li>
+                <li><Link href="#" className="text-muted-foreground hover:text-primary transition-colors">Política de Cookies</Link></li>
             </ul>
           </div>
 
