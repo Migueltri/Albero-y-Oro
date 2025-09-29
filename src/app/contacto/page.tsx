@@ -52,7 +52,7 @@ export default function ContactoPage() {
                     <Pin className="h-6 w-6"/>
                 </div>
                 <div>
-                    <h3 className="text-lg font-semibold font-headline">Redacción</h3>
+                    <h3 className="text-lg font-semibold font-headline">Ubicación</h3>
                     <p className="text-muted-foreground">Calle de Alcalá, 237, 28028 Madrid, España</p>
                 </div>
             </div>
