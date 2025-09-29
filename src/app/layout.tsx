@@ -6,9 +6,9 @@ import { Header } from '@/components/layout/Header';
 import { Footer } from '@/components/layout/Footer';
 
 export const metadata: Metadata = {
-  title: 'La Faena Digital',
+  title: 'TauroPress',
   description:
-    'Noticias de última hora sobre tauromaquia, corridas, toreros y ganaderías.',
+    'TauroPress: Noticias y actualidad del mundo de la tauromaquia. Corridas, toreros, ganaderías y más.',
 };
 
 export default function RootLayout({

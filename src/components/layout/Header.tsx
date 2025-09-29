@@ -22,7 +22,7 @@ const Logo = () => (
     <Link href="/" className="flex items-center gap-2 text-foreground transition-colors hover:text-primary">
       <BullIcon className="h-7 w-7 text-primary" />
       <span className="text-xl font-bold font-headline whitespace-nowrap">
-        La Faena Digital
+        TauroPress
       </span>
     </Link>
 )
@@ -86,8 +86,8 @@ export function Header() {
                             <Link
                                 href={link.href}
                                 className={cn(
-                                'block text-lg font-medium p-2 rounded-md hover:bg-accent/50',
-                                pathname === link.href ? 'text-primary' : 'text-foreground'
+                                'block text-lg font-medium p-2 rounded-md hover:bg-primary/10 hover:text-primary',
+                                pathname === link.href ? 'text-primary bg-primary/5' : 'text-foreground'
                                 )}
                             >
                                 {link.label}

@@ -54,7 +54,7 @@ export default function ContactoPage() {
                 </div>
                 <div>
                     <h3 className="text-lg font-semibold font-headline">Sobre Nosotros</h3>
-                    <p className="text-muted-foreground">La Faena Digital es un medio independiente y apasionado, comprometido con la difusión y defensa de la cultura taurina con rigor y profesionalidad.</p>
+                    <p className="text-muted-foreground">TauroPress es un medio independiente y apasionado, comprometido con la difusión y defensa de la cultura taurina con rigor y profesionalidad.</p>
                 </div>
             </div>
              <div className="flex items-start gap-4">
@@ -72,7 +72,7 @@ export default function ContactoPage() {
                 </div>
                 <div>
                     <h3 className="text-lg font-semibold font-headline">Email</h3>
-                    <p className="text-muted-foreground">redaccion@lafaenadigital.com</p>
+                    <p className="text-muted-foreground">redaccion@tauropress.com</p>
                 </div>
             </div>
         </div>

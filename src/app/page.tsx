@@ -72,7 +72,7 @@ export default async function Home() {
                           )}
                           <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent" />
                           <div className="absolute bottom-0 left-0 p-4 md:p-8 text-white">
-                            <Badge variant="destructive" className="mb-2 bg-primary">{article.category}</Badge>
+                            <Badge variant="default" className="mb-2">{article.category}</Badge>
                             <h2 className="font-headline text-2xl md:text-4xl font-bold mb-2">
                               <Link href={`/noticias/${article.slug}`} className="hover:underline">
                                 {article.title}
@@ -126,7 +126,7 @@ export default async function Home() {
                 <CardContent>
                   <ul className="space-y-4">
                     {events.map(event => (
-                      <li key={event.id} className="border-l-4 border-accent pl-4 py-1">
+                      <li key={event.id} className="border-l-4 border-primary pl-4 py-1">
                         <p className="font-bold">{event.date}</p>
                         <p className="text-sm text-muted-foreground">{event.arena}, {event.city}</p>
                         <p className="text-sm">{event.details}</p>

@@ -27,7 +27,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
     <article className="container max-w-4xl mx-auto px-4 py-8 md:py-12">
       <header className="mb-8">
         <div className="mb-4">
-          <Badge variant="destructive" className="bg-primary">{article.category}</Badge>
+          <Badge>{article.category}</Badge>
         </div>
         <h1 className="font-headline text-3xl md:text-5xl font-bold text-primary mb-4">
           {article.title}

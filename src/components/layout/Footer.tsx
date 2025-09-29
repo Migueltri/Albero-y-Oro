@@ -21,7 +21,7 @@ export function Footer() {
           <div className="md:col-span-4 lg:col-span-4">
             <Link href="/" className="flex items-center gap-2 mb-4">
               <BullIcon className="h-8 w-8 text-primary" />
-              <span className="text-2xl font-bold font-headline">La Faena Digital</span>
+              <span className="text-2xl font-bold font-headline">TauroPress</span>
             </Link>
             <p className="text-sm text-muted-foreground">
               El portal de noticias líder en información taurina. Pasión, rigor y actualidad en el mundo del toro.
@@ -80,7 +80,7 @@ export function Footer() {
         <Separator />
 
         <div className="text-center py-6 text-sm text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} La Faena Digital. Todos los derechos reservados.</p>
+          <p>&copy; {new Date().getFullYear()} TauroPress. Todos los derechos reservados.</p>
         </div>
       </div>
     </footer>

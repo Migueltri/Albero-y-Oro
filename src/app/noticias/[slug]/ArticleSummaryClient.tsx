@@ -33,11 +33,11 @@ export default function ArticleSummaryClient({ articleContent }: { articleConten
 
   return (
     <section>
-        <Card className="bg-card/50 border-dashed border-accent">
+        <Card className="bg-card/50 border-dashed">
             <CardHeader>
                 <div className="flex flex-col sm:flex-row justify-between sm:items-center gap-4">
                     <div>
-                        <CardTitle className="flex items-center gap-2 font-headline text-2xl text-accent">
+                        <CardTitle className="flex items-center gap-2 font-headline text-2xl text-primary">
                             <Wand2 className="h-6 w-6" />
                             Resumen con IA
                         </CardTitle>
@@ -45,7 +45,7 @@ export default function ArticleSummaryClient({ articleContent }: { articleConten
                             ¿Poco tiempo? Genera un resumen del artículo utilizando inteligencia artificial.
                         </CardDescription>
                     </div>
-                    <Button onClick={handleGenerateSummary} disabled={isLoading} variant="outline" className="bg-transparent border-accent text-accent hover:bg-accent hover:text-accent-foreground">
+                    <Button onClick={handleGenerateSummary} disabled={isLoading}>
                         {isLoading ? (
                             <>
                                 <Loader2 className="mr-2 h-4 w-4 animate-spin" />
