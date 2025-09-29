@@ -1,4 +1,4 @@
-# **App Name**: La Faena Digital
+# **App Name**: Tauro Press
 
 ## Core Features:
 
