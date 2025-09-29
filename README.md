@@ -1,5 +1,3 @@
-# Firebase Studio
-
-This is a NextJS starter in Firebase Studio.
-
-To get started, take a look at src/app/page.tsx.
+# Albero y Oro
+Proyecto web hecho con Next.js + TailwindCSS.
+Aquí encontrarás secciones de actualidad, agenda, entrevistas, opinión y más.
